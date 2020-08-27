@@ -1,5 +1,11 @@
 # Behavioral Cloning Project
 
+[![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
+
+In this project, you will use what you've learned about deep neural networks and convolutional neural networks to clone driving behavior. You will train, validate and test a model using Keras. The model will output a steering angle to an autonomous vehicle.
+
+We have provided a simulator where you can steer a car around a track for data collection. You'll use image data and steering angles to train a neural network and then use this model to drive the car autonomously around the track.
+
 ![](./media/video.gif)
 
 The steps of this project are the following:
@@ -9,26 +15,18 @@ The steps of this project are the following:
 * Test that the model successfully drives around track one without leaving the road
 * Summarize the results with a written report
 
-## Rubric Points
-Here I will consider the rubric points individually and describe how I addressed each point in my implementation.
+The project includes the following files:
+* model.py containing the script to create and train the model
+* drive.py for driving the car in autonomous mode
+* model.h5 containing a trained convolution neural network
+* writeup_report.pdf summarizing the results
 
-## Files Submitted & Code Quality
+## Dependencies 
 
-### 1. Submission includes all required files and can be used to run the simulator in autonomous mode
-My project includes the following files:
-• model.py containing the script to create and train the model
-• drive.py for driving the car in autonomous mode
-• model.h5 containing a trained convolution neural network
-• writeup_report.pdf summarizing the results
+The project environment is created with [CarND Term1 Starter Kit](https://github.com/udacity/CarND-Term1-Starter-Kit).
 
-###2. Submission includes functional code
-Using the Udacity provided simulator and my drive.py file, the car can be driven autonomously around the track by executing
-python drive.py model.h5
+The training dataset used can be downloaded [here](https://drive.google.com/file/d/1cfkh2W3NSLGCxoHOnGBu67-KbAnYx4pL/view?usp=sharing).
 
-### 3. Submission code is usable and readable
-The model.py file contains the code for training and saving the convolution neural
-network. The file shows the pipeline I used for training and validating the model, and
-it contains comments to explain how the code works.
 
 ## Model Architecture and Training Strategy
 
