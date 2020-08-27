@@ -1,6 +1,8 @@
 # Behavioral Cloning Project
 
-The goals / steps of this project are the following:
+![](./media/video.gif)
+
+The steps of this project are the following:
 * Use the simulator to collect data of good driving behavior
 * Build, a convolution neural network in Keras that predicts steering angles from images
 * Train and validate the model with a training and validation set
@@ -33,6 +35,11 @@ it contains comments to explain how the code works.
 ### 1. Creation of the Dataset
 To capture good driving behavior, I started by recording two laps on track one using
 center lane driving. Here is an example image of center lane driving:
+
+<p align="center">
+  <img src="./media/example.jpg" />
+</p>
+
 In order to generate a bigger dataset, I acted in three different ways.
 First, I recorded one lap on track 1 in the opposite direction.
 Then, I recorded one lap of the second track which is much more difficult in terms of
@@ -47,6 +54,14 @@ road back to center so that the vehicle would learn how to act in case the car h
 face these situations.
 These images show what a recovery looks like starting from the right side of the
 road:
+
+<p float="left">
+  <img src="./media/recovery_1.jpg" width="300" />
+  <img src="./media/recovery_2.jpg" width="300" /> 
+  <img src="./media/recovery_3.jpg" width="300" />
+</p>
+     
+
 After the collection process, considering all the three camera and the data augmentation I had number of 109.998 images available which I considered enough for the project purpose.
 
 ### 2. Generating the dataset
