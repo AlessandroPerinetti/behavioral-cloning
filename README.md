@@ -59,9 +59,9 @@ These images show what a recovery looks like starting from the right side of the
 road:
 
 <p float="left">
-  <img src="./media/recovery_1.jpg" width="300" />
-  <img src="./media/recovery_2.jpg" width="300" /> 
-  <img src="./media/recovery_3.jpg" width="300" />
+  <img src="./media/recovery_1.jpg" width="250" />
+  <img src="./media/recovery_2.jpg" width="250" /> 
+  <img src="./media/recovery_3.jpg" width="250" />
 </p>
      
 
